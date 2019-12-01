@@ -1,0 +1,32 @@
+{
+  "name": "vscode-theme-undefined",
+  "displayName": "undefined",
+  "description": "Still not sure what this is",
+  "version": "0.0.0",
+  "publisher": "juanmnl",
+  "engines": {
+    "vscode": "^1.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juanmnl/vs-undefined"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Undefined",
+        "uiTheme": "vs-dark",
+        "path": "./themes/undefined.json"
+      }
+    ]
+  },
+  "galleryBanner": {
+    "color": "#46BDFF",
+    "theme": "dark"
+  },
+  "icon": "icon.png",
+  "license": "MIT"
+}

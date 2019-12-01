@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="242px" height="242px" viewBox="0 0 242 242" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="49.9155405%" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#C4CED4" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <circle id="Oval" stroke="#979797" fill="url(#radialGradient-1)" cx="121" cy="121" r="120.5"></circle>
+            <g id="Group" transform="translate(64.500000, 105.000000)">
+                <rect id="Rectangle" fill="#46BDFF" x="0" y="0" width="113" height="33"></rect>
+                <text id="Undefined" font-family="Avenir-Book, Avenir" font-size="24" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="0.984" y="24">Undefined</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
