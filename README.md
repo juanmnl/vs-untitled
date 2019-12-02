@@ -2,6 +2,7 @@
 
 ### **Still not sure what this is.**
 
+- Use with [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
 - Minimal color palette
 - Dark
 - Readability
