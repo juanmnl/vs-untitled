@@ -1,6 +1,4 @@
-## Welcome to UNTITLED 🤷
-
-### **Still not sure what this is.**
+## UNTITLED 🤷
 
 - Use with [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
 - Minimal color palette
