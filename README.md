@@ -7,4 +7,4 @@
 - Readability
 - Long term usage
 
-![](https://raw.githubusercontent.com/juanmnl/vs-untitled/master/screenshots/untitled.png)
+![](https://raw.githubusercontent.com/juanmnl/vs-untitled/master/screenshots/main.png)
