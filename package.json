@@ -2,7 +2,7 @@
   "name": "vscode-theme-untitled",
   "displayName": "untitled",
   "description": "Still not sure what this is",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "juanmnl",
   "engines": {
     "vscode": "^1.16.0"
