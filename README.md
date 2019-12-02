@@ -1,4 +1,4 @@
-## Welcome to UNDEFINED 🤷
+## Welcome to UNTITLED 🤷
 
 ### **Still not sure what this is.**
 
@@ -7,4 +7,4 @@
 - Readability
 - Long term usage
 
-![](https://raw.githubusercontent.com/juanmnl/vs-undefined/master/screenshots/undefined.png)
+![](https://raw.githubusercontent.com/juanmnl/vs-untitled/master/screenshots/untitled.png)

@@ -1,15 +1,15 @@
 {
-  "name": "vscode-theme-undefined",
-  "displayName": "undefined",
+  "name": "vscode-theme-untitled",
+  "displayName": "untitled",
   "description": "Still not sure what this is",
-  "version": "0.0.3",
+  "version": "0.0.0",
   "publisher": "juanmnl",
   "engines": {
     "vscode": "^1.16.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/juanmnl/vs-undefined"
+    "url": "https://github.com/juanmnl/vs-untitled"
   },
   "categories": [
     "Themes"
@@ -17,9 +17,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Undefined",
+        "label": "Untitled",
         "uiTheme": "vs-dark",
-        "path": "./themes/undefined.json"
+        "path": "./themes/untitled.json"
       }
     ]
   },
