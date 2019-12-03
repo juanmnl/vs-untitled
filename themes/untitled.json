@@ -243,7 +243,7 @@
       "name": "Support variable",
       "scope": "support.variable",
       "settings": {
-        "foreground": "#959FFF"
+        "foreground": "#FFFFFF"
       }
     },
     {

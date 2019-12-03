@@ -15,4 +15,4 @@
 
 ![](https://raw.githubusercontent.com/juanmnl/vs-untitled/master/screenshots/wo.png)
 
-Made with 🔥[juanmnl](https://juanmnl.com)
+Made with 🔥 [juanmnl](https://juanmnl.com)
