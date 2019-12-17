@@ -2,7 +2,7 @@
   "name": "vscode-theme-untitled",
   "displayName": "untitled",
   "description": "A minimal theme focused on dev heath & experience.",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "publisher": "juanmnl",
   "engines": {
     "vscode": "^1.16.0"
