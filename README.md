@@ -1,7 +1,8 @@
 ## UNTITLED 🤷
 
 - Minimal color palette
-- Dark
+- Dark theme
+- Precision contrast
 - Readability
 - Long term usage
 
@@ -15,4 +16,4 @@
 
 ![](https://raw.githubusercontent.com/juanmnl/vs-untitled/master/screenshots/wo.png)
 
-Made with 🔥 [juanmnl](https://juanmnl.com)
+Made with ♥️ by [juanmnl](https://juanmnl.com)
