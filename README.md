@@ -1,6 +1,6 @@
 ## UNTITLED 🤷
 
-_A theme focused on dev health & long term reading experience._
+_A theme for coding pleasure & long term reading experience._
 
 - Minimal color palette
 - Dark theme
