@@ -2,7 +2,7 @@
   "name": "vscode-theme-untitled",
   "displayName": "untitled",
   "description": "A theme for coding pleasure & long term reading experience",
-  "version": "0.0.15",
+  "version": "0.1.0",
   "publisher": "juanmnl",
   "engines": {
     "vscode": "^1.16.0"
