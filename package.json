@@ -2,7 +2,7 @@
   "name": "vscode-theme-untitled",
   "displayName": "untitled",
   "description": "A theme focused on dev health & long term reading experience.",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "publisher": "juanmnl",
   "engines": {
     "vscode": "^1.16.0"
