@@ -276,13 +276,6 @@
       }
     },
     {
-      "name": "Puncuation Definition block",
-      "scope": "punctuation.section.embedded",
-      "settings": {
-        "foreground": "#FFFFFF"
-      }
-    },
-    {
       "name": "Template expression",
       "scope": [
         "punctuation.definition.template-expression.begin",
@@ -440,6 +433,620 @@
       "scope": "markup.italic.markdown",
       "settings": {
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Type names (interfaces, classes, types)",
+      "scope": [
+        "entity.name.type",
+        "entity.name.type.class",
+        "entity.name.type.interface",
+        "entity.name.type.enum",
+        "entity.name.type.alias",
+        "entity.name.type.module",
+        "support.type.builtin",
+        "support.type.primitive"
+      ],
+      "settings": {
+        "foreground": "#3EA7E0"
+      }
+    },
+    {
+      "name": "Type annotation and parameters",
+      "scope": [
+        "meta.type.annotation",
+        "meta.return.type",
+        "meta.type.parameters",
+        "entity.name.type.parameter"
+      ],
+      "settings": {
+        "foreground": "#3EA7E0"
+      }
+    },
+    {
+      "name": "Generics brackets",
+      "scope": [
+        "punctuation.definition.typeparameters",
+        "punctuation.definition.typeparameters.begin",
+        "punctuation.definition.typeparameters.end"
+      ],
+      "settings": {
+        "foreground": "#627DB4"
+      }
+    },
+    {
+      "name": "Type operators (keyof, typeof, infer, etc.)",
+      "scope": [
+        "keyword.operator.type",
+        "keyword.operator.type.annotation",
+        "keyword.operator.expression.typeof",
+        "keyword.operator.expression.keyof",
+        "keyword.operator.expression.infer"
+      ],
+      "settings": {
+        "foreground": "#D63667",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "TS/JS as keyword",
+      "scope": [
+        "keyword.control.as",
+        "keyword.control.satisfies"
+      ],
+      "settings": {
+        "foreground": "#D63667",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Import/Export keywords",
+      "scope": [
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control.from",
+        "keyword.control.default"
+      ],
+      "settings": {
+        "foreground": "#D63667",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Decorators",
+      "scope": [
+        "meta.decorator",
+        "punctuation.decorator"
+      ],
+      "settings": {
+        "foreground": "#96A1FF"
+      }
+    },
+    {
+      "name": "Decorator name",
+      "scope": "entity.name.function.decorator",
+      "settings": {
+        "foreground": "#96A1FF",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Constants (UPPER_CASE)",
+      "scope": [
+        "variable.other.constant",
+        "variable.other.enummember"
+      ],
+      "settings": {
+        "foreground": "#96A1FF"
+      }
+    },
+    {
+      "name": "Numeric constants",
+      "scope": [
+        "constant.numeric",
+        "constant.numeric.decimal",
+        "constant.numeric.integer",
+        "constant.numeric.float",
+        "constant.numeric.hex",
+        "constant.numeric.binary",
+        "constant.numeric.octal"
+      ],
+      "settings": {
+        "foreground": "#96A1FF"
+      }
+    },
+    {
+      "name": "this and super keywords",
+      "scope": [
+        "variable.language.this",
+        "variable.language.super"
+      ],
+      "settings": {
+        "foreground": "#D63667",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "TS Variable Property",
+      "scope": [
+        "variable.other.property.ts",
+        "variable.other.property.tsx",
+        "variable.other.object.property"
+      ],
+      "settings": {
+        "foreground": "#7A83D1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Namespace",
+      "scope": [
+        "entity.name.type.module",
+        "entity.name.namespace"
+      ],
+      "settings": {
+        "foreground": "#3EA7E0"
+      }
+    },
+    {
+      "name": "TS Arrow function",
+      "scope": [
+        "storage.type.function.arrow.ts",
+        "storage.type.function.arrow.tsx"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "JSX Component tags (capitalized)",
+      "scope": [
+        "support.class.component",
+        "support.class.component.jsx",
+        "support.class.component.tsx",
+        "entity.name.tag.jsx",
+        "entity.name.tag.tsx"
+      ],
+      "settings": {
+        "foreground": "#3EA7E0"
+      }
+    },
+    {
+      "name": "JSX/TSX tag punctuation",
+      "scope": [
+        "punctuation.definition.tag.jsx",
+        "punctuation.definition.tag.tsx",
+        "punctuation.definition.tag.begin.jsx",
+        "punctuation.definition.tag.end.jsx",
+        "punctuation.definition.tag.begin.tsx",
+        "punctuation.definition.tag.end.tsx"
+      ],
+      "settings": {
+        "foreground": "#627DB4"
+      }
+    },
+    {
+      "name": "JSX/TSX attributes",
+      "scope": [
+        "entity.other.attribute-name.jsx",
+        "entity.other.attribute-name.tsx"
+      ],
+      "settings": {
+        "foreground": "#627DB4",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "JSX/TSX embedded expressions",
+      "scope": [
+        "punctuation.section.embedded.begin.jsx",
+        "punctuation.section.embedded.end.jsx",
+        "punctuation.section.embedded.begin.tsx",
+        "punctuation.section.embedded.end.tsx",
+        "meta.embedded.expression.jsx",
+        "meta.embedded.expression.tsx"
+      ],
+      "settings": {
+        "foreground": "#D63667"
+      }
+    },
+    {
+      "name": "JSX/TSX string attribute values",
+      "scope": [
+        "string.quoted.double.jsx",
+        "string.quoted.single.jsx",
+        "string.quoted.double.tsx",
+        "string.quoted.single.tsx"
+      ],
+      "settings": {
+        "foreground": "#B4C8D4"
+      }
+    },
+    {
+      "name": "React Hooks",
+      "scope": [
+        "support.function.hook",
+        "entity.name.function.hook"
+      ],
+      "settings": {
+        "foreground": "#85EEA7"
+      }
+    },
+    {
+      "name": "Rust types (struct, enum, trait)",
+      "scope": [
+        "entity.name.type.rust",
+        "entity.name.type.struct.rust",
+        "entity.name.type.enum.rust",
+        "entity.name.type.trait.rust",
+        "entity.name.type.union.rust"
+      ],
+      "settings": {
+        "foreground": "#3EA7E0"
+      }
+    },
+    {
+      "name": "Rust primitive types",
+      "scope": [
+        "entity.name.type.primitive.rust",
+        "support.type.primitive.rust"
+      ],
+      "settings": {
+        "foreground": "#3EA7E0"
+      }
+    },
+    {
+      "name": "Rust lifetimes",
+      "scope": [
+        "entity.name.type.lifetime.rust",
+        "punctuation.definition.lifetime.rust",
+        "storage.modifier.lifetime.rust"
+      ],
+      "settings": {
+        "foreground": "#D63667",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Rust macros",
+      "scope": [
+        "entity.name.function.macro.rust",
+        "meta.macro.rust",
+        "support.function.macro.rust"
+      ],
+      "settings": {
+        "foreground": "#96A1FF"
+      }
+    },
+    {
+      "name": "Rust macro punctuation (!)",
+      "scope": "keyword.operator.macro.rust",
+      "settings": {
+        "foreground": "#96A1FF"
+      }
+    },
+    {
+      "name": "Rust attributes",
+      "scope": [
+        "meta.attribute.rust",
+        "punctuation.definition.attribute.rust",
+        "punctuation.brackets.attribute.rust"
+      ],
+      "settings": {
+        "foreground": "#7A83D1"
+      }
+    },
+    {
+      "name": "Rust attribute content",
+      "scope": "meta.attribute.rust entity.name",
+      "settings": {
+        "foreground": "#7A83D1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Rust unsafe keyword",
+      "scope": "keyword.other.unsafe.rust",
+      "settings": {
+        "foreground": "#D63667",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Rust keywords (pub, mod, use, etc.)",
+      "scope": [
+        "keyword.other.rust",
+        "keyword.other.crate.rust",
+        "keyword.other.pub.rust",
+        "keyword.other.mod.rust",
+        "keyword.other.fn.rust",
+        "keyword.other.use.rust"
+      ],
+      "settings": {
+        "foreground": "#D63667",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Rust storage modifiers (mut, ref)",
+      "scope": [
+        "storage.modifier.rust",
+        "storage.modifier.mut.rust",
+        "storage.modifier.ref.rust"
+      ],
+      "settings": {
+        "foreground": "#627DB4",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Rust borrow operators",
+      "scope": [
+        "keyword.operator.borrow.rust",
+        "keyword.operator.borrow.and.rust",
+        "keyword.operator.dereference.rust"
+      ],
+      "settings": {
+        "foreground": "#D63667"
+      }
+    },
+    {
+      "name": "Rust self",
+      "scope": [
+        "variable.language.self.rust",
+        "keyword.other.self.rust"
+      ],
+      "settings": {
+        "foreground": "#D63667",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Rust impl keyword",
+      "scope": "keyword.other.impl.rust",
+      "settings": {
+        "foreground": "#627DB4",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Rust where keyword",
+      "scope": "keyword.other.where.rust",
+      "settings": {
+        "foreground": "#627DB4",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Rust namespace operator (::)",
+      "scope": [
+        "punctuation.separator.namespace.rust",
+        "keyword.operator.namespace.rust"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Rust Option/Result types",
+      "scope": [
+        "entity.name.type.option.rust",
+        "entity.name.type.result.rust"
+      ],
+      "settings": {
+        "foreground": "#3EA7E0"
+      }
+    },
+    {
+      "name": "Rust enum variants",
+      "scope": [
+        "entity.name.type.variant.rust",
+        "constant.other.caps.rust"
+      ],
+      "settings": {
+        "foreground": "#96A1FF"
+      }
+    },
+    {
+      "name": "Strings (general)",
+      "scope": [
+        "string.quoted",
+        "string.quoted.single",
+        "string.quoted.double"
+      ],
+      "settings": {
+        "foreground": "#B4C8D4"
+      }
+    },
+    {
+      "name": "Property accessor",
+      "scope": [
+        "punctuation.accessor",
+        "punctuation.accessor.ts",
+        "punctuation.accessor.tsx",
+        "punctuation.accessor.js",
+        "punctuation.accessor.optional"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Optional chaining",
+      "scope": "punctuation.accessor.optional",
+      "settings": {
+        "foreground": "#D63667"
+      }
+    },
+    {
+      "name": "Spread operator",
+      "scope": "keyword.operator.spread",
+      "settings": {
+        "foreground": "#D63667"
+      }
+    },
+    {
+      "name": "Rest parameter",
+      "scope": "keyword.operator.rest",
+      "settings": {
+        "foreground": "#D63667"
+      }
+    },
+    {
+      "name": "Ternary operators",
+      "scope": [
+        "keyword.operator.ternary",
+        "keyword.operator.conditional"
+      ],
+      "settings": {
+        "foreground": "#D63667"
+      }
+    },
+    {
+      "name": "Null coalescing operator",
+      "scope": "keyword.operator.nullcoalesce",
+      "settings": {
+        "foreground": "#D63667"
+      }
+    },
+    {
+      "name": "Comparison operators",
+      "scope": [
+        "keyword.operator.comparison",
+        "keyword.operator.relational"
+      ],
+      "settings": {
+        "foreground": "#D63667"
+      }
+    },
+    {
+      "name": "Logical operators",
+      "scope": "keyword.operator.logical",
+      "settings": {
+        "foreground": "#D63667"
+      }
+    },
+    {
+      "name": "Assignment operators",
+      "scope": "keyword.operator.assignment",
+      "settings": {
+        "foreground": "#D63667"
+      }
+    },
+    {
+      "name": "Async/Await",
+      "scope": [
+        "keyword.control.flow.await",
+        "keyword.control.flow.async",
+        "storage.modifier.async"
+      ],
+      "settings": {
+        "foreground": "#D63667",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Class names",
+      "scope": [
+        "entity.name.type.class",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#3EA7E0"
+      }
+    },
+    {
+      "name": "Inherited class",
+      "scope": "entity.other.inherited-class",
+      "settings": {
+        "foreground": "#3EA7E0",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "New keyword",
+      "scope": "keyword.operator.new",
+      "settings": {
+        "foreground": "#D63667",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Constructor call",
+      "scope": "meta.function-call.constructor",
+      "settings": {
+        "foreground": "#3EA7E0"
+      }
+    },
+    {
+      "name": "JSON property names",
+      "scope": "support.type.property-name.json",
+      "settings": {
+        "foreground": "#627DB4"
+      }
+    },
+    {
+      "name": "JSON string values",
+      "scope": "string.quoted.double.json",
+      "settings": {
+        "foreground": "#B4C8D4"
+      }
+    },
+    {
+      "name": "YAML keys",
+      "scope": "entity.name.tag.yaml",
+      "settings": {
+        "foreground": "#627DB4"
+      }
+    },
+    {
+      "name": "YAML anchors",
+      "scope": [
+        "entity.name.type.anchor.yaml",
+        "punctuation.definition.anchor.yaml"
+      ],
+      "settings": {
+        "foreground": "#96A1FF"
+      }
+    },
+    {
+      "name": "YAML alias",
+      "scope": [
+        "variable.other.alias.yaml",
+        "punctuation.definition.alias.yaml"
+      ],
+      "settings": {
+        "foreground": "#7A83D1"
+      }
+    },
+    {
+      "name": "TOML keys",
+      "scope": [
+        "keyword.key.toml",
+        "support.type.property-name.toml"
+      ],
+      "settings": {
+        "foreground": "#627DB4"
+      }
+    },
+    {
+      "name": "TOML tables",
+      "scope": [
+        "entity.name.section.toml",
+        "entity.other.attribute-name.table.toml"
+      ],
+      "settings": {
+        "foreground": "#3EA7E0"
+      }
+    },
+    {
+      "name": "TOML table brackets",
+      "scope": [
+        "punctuation.definition.table.toml",
+        "punctuation.definition.array.table.toml"
+      ],
+      "settings": {
+        "foreground": "#D63667"
       }
     }
   ]
